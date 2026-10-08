@@ -1,3 +1,5 @@
+/* Base */
+
 :root {
     --bg-color: #14161f;
     --card-color: #1e2130;
@@ -11,6 +13,7 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Layout */
 body{
     background-color: var(--bg-color);
     color: var(--text-color);
@@ -50,6 +53,14 @@ nav a:hover {
     color: var(--accent-color);
 }
 
+footer {
+    text-align: center;
+    color: var(--muted-text);
+    font-size: 14px;
+}
+
+/* Projects */
+
 .project-card {
     background-color: var(--card-color);
     border: 1px solid var(--border-color);
@@ -88,6 +99,8 @@ nav a:hover {
     display: grid;
     gap: 20px;
 }
+
+/* Contact */
 
 .contact-links {
     list-style: none;
