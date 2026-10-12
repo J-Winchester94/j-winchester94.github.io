@@ -96,7 +96,7 @@ footer {
 }
 
 .project-grid {
-    display: grid;
+    display: repeat(auto-fit, minmax(240px, 1fr));
     gap: 20px;
 }
 
