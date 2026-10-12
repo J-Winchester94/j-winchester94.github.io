@@ -108,6 +108,7 @@ footer {
     color: var(--muted-text);
 }
 
+
 @media  (min-width: 700px) {
     .project-grid {
         grid-template-columns: 1fr 1fr;
